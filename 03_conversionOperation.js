@@ -100,3 +100,19 @@ let sum1 = "Hello"
 let sum2 = " Arpit How are you?"
 let sum3 = sum1 + sum2
 console.log(sum3)
+
+console.log("1" + 2); // gives 12
+console.log(1 + "2"); // also gives 12
+console.log("1" + 2 + 2); // also gives 122
+console.log(1 + 2 + "2") // it gives 32 
+
+console.log(true); // only true gives true
+console.log(+true);  // but, the '+' sign is assign with true then it gives 1
+console.log(true+); // it is not possible
+console.log(-true); // but, the '-' sign is assign with true then it gives -1
+
+let gameCounter = 50
+gameCounter++;
+console.log(gameCounter);
+++gameCounter;
+console.log(gameCounter);
